@@ -16,7 +16,7 @@ int sumSquare(int y) {
 	}
 	return sum;
 }
-int main() {
+int main2() {
 	int num = 100;
 	printf("%d", squareSum(num) - sumSquare(num));
 	return 0;
