@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main() {
+int main3() {
 	long long i, num , j, SUM = 0;
 	scanf_s("%lld", &num);
 	for (i = 2; i < num; i++) {

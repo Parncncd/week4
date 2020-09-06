@@ -12,12 +12,13 @@ int sumSquare(int y) {
 	int sum = 0;
 	for (int i = 1; i <= y; i++) {
 		sum += i * i;
-
+		
 	}
 	return sum;
 }
-int main2() {
-	int num = 100;
+int main() {
+	int num ;
+	scanf_s("%d", &num);
 	printf("%d", squareSum(num) - sumSquare(num));
 	return 0;
 }
